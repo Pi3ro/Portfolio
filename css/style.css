@@ -1,0 +1,51 @@
+html {
+    background: url(../img/backgroundgif.gif) no-repeat center center fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.pfp-box {
+    width: 450px;
+    height: 450px;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.pfp-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 5;
+    font-size: 50px;
+    font-family: monaco,Consolas,Lucida Console,monospace;
+}
+
+p {
+    font-weight: 100;
+    letter-spacing: 1;
+}
+
+.icons {
+    font-size: 30px;
+}
+
+.icons a {
+    color: white;
+}
+
+.icons a:hover{
+    color: yellow;
+}
